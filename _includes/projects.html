@@ -1,39 +1,122 @@
 <div class="user-details">
+  <h1> Work Experience </h1>
+</div>
+
+<!-- Bloomberg Experience -->
+<div class="user-experience">
+  <div class="images-left">
+    <img alt="bloomberg" src="{{ "/assets/img/bloomberg.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Bloomberg (Data Management Services) | Software Engineer, Intern | Dublin, Ireland </h3>
+    <p> May 2023 – Sep 2023 </p>
+    <ul>
+      <li>Added health endpoints with advanced features for improved monitoring and incorporated time control features to boost efficiency. Rectified critical service bugs related to null errors, job retries, and time discrepancies, ensuring data integrity and system reliability.</li>
+      <li>Automated file generation with FreeMarker templates, streamlining the transition from over 10 ‘.dp’ to JSON and dppfest files.</li>
+      <li>Employed rigorous unit testing on over 15+ services, employed Antlr for file parsing, and resolved CSV duplicate entries to ensure data accuracy and code reliability. Leveraged Spring internal functions, including retry templates, for bug fixing increasing efficiency by 5%.</li>
+      <li>Enhanced Kubernetes service connectivity by utilised JavaScript and optimised the UI achieving 85% seamless integration, managed deployment pipelines with Jenkins for over 50 deployments.</li>
+      <li>Leveraged Knowledge: Java, Python, Spring Boot, JavaScript, FreeMarker, Antlr, Junit, Jenkins, Bitbucket, Jira, Swagger, Ansible, Gradle, Apache Maven, Confluence.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Vantage Circle Experience -->
+<div class="user-experience">
+  <div class="images-right">
+    <img alt="vantage" src="{{ "/assets/img/vantage.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Vantage Circle | Software Engineer, Intern | India </h3>
+    <p> Jul 2021 – Sep 2021 </p>
+    <ul>
+      <li>Worked on hosting an internal expense management tool on GitHub and improving the integration between the backend and database for the tool.</li>
+      <li>Ran internal queries on Postgres Database with Python’s API for Postgres. Researched about Apache Calcite and where it would be suitable to be used for internal company requirements.</li>
+      <li>Leveraged Knowledge: Git, GitHub, SQL, Calcite, Postgres.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- SYSWARE Infotech Private Limited Experience -->
+<div class="user-experience">
+  <div class="images-left">
+    <img alt="sysware" src="{{ "/assets/img/sysware.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Software Engineer, Intern | SYSWARE Infotech Private Limited </h3>
+    <p> June 2020 – August 2020 </p>
+    <ul>
+      <li>Worked on developing ML models to analyze the current and archived incident tickets in the internal incident tool.</li>
+      <li>The models help categorize and find patterns on the incidents, which further aided the incident team to improve their incident clearance and management.</li>
+      <li>Leveraged Knowledge: Python, ML Libraries, and packages.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="user-details">
   <h1> Featured Projects </h1>
 </div>
+
+<!-- Stock Predictor & News sentimental Analysis Project -->
 <div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/stock.jpg" | prepend: site.baseurl }}" />
+    <img alt="analysis" src="{{ "/assets/img/stock.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <h3> Stock predictor </h3>
+    <h3> Stock Predictor & News sentimental Analysis </h3>
     <ul>
       <li>Python</li>
-      <li>Pandas Python Library</li>
-      <li>Keras Python Library</li>
-      <li>Numpy Python Library</li>
-      <li>Streamlit Python Library</li>
-      <li>Sklearn Python Library</li>
+      <li>yfinance</li>
+      <li>pandas_datareader</li>
+      <li>TextBlob</li>
+      <li>NLTK</li>
+      <li>Flair</li>
+      <li>transformers</li>
+      <li>matplotlib</li>
+      <li>plotly</li>
+      <li>Keras</li>
+      <li>LSTM</li>
+      <li>Streamlit</li>
     </ul>
-    <p>Created a streamlit GUI and designed a stock prediction model. The app is dynamic and can find the prediction for any stock using the Yahoo database by using streamlit. The model predicts stock prices using keras layers and has a testing range of 60%. The model displays the price range as well as the 50 and 200 moving averages. The model predicts prices and then displays the predicted price vs. actual price graphically; the model also displays the Mean absolute error.</p>
-    <a class="project-link" href="https://github.com/EshaanTrehan/Stock-Predictor-v36">Check it out</a>
+    <p>Developed a financial analysis tool in Python, integrating real-time stock prices (via yfinance and pandas_datareader) and news articles for insights using NewsApi. Conducted sentiment analysis on stock-related news using TextBlob, NLTK, Flair, and transformers; visualised correlations on matplotlib and plotly. Built a Keras-based deep learning model / machine learning with LSTM for stock price prediction, achieving less than 5% error after 100+ iterations. Deployed a Streamlit web dashboard for real-time viewing, enhanced with error handling and integrity checks. Increased data cohesiveness by aligning dates between stock prices and news data, prioritising accuracy, and robustness.</p>
+    <a class="project-link" href="https://github.com/EshaanTrehan/Stock-and-news">Check it out</a>
   </div>
 </div>
+
+<!-- Decentralised Chat App Project -->
 <div class="user-projects">
   <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/news.jpg" | prepend: site.baseurl }}" />
+    <img alt="chat" src="{{ "/assets/img/p2p.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <h3> News Scrapper </h3>
+    <h3> Decentralised Chat App </h3>
     <ul>
       <li>Python</li>
-      <li>Pandas Python Library</li>
-      <li>NewsAPI</li>
+      <li>UDP</li>
+      <li>SHA-256</li>
+      <li>OpenVPN</li>
     </ul>
-    <p>Designed a news scrapper which collates, cleans, and extracts news for any given company using Bloomberg News as a source. The scraped data can be further leveraged to make news analysis and stock predictor tools. For more information about the code click the link below.</p>
-    <a class="project-link" href="https://github.com/EshaanTrehan/News_scrapper">Check it out</a>
+    <p>Developed a decentralised P2P network on Pi platforms for resilient communication. Utilised UDP for lightweight, low-latency transmission and integrated SHA-256 for secure authentication. Implemented NAT hole-punching with a rendezvous server, allowing seamless peer communication. Gained proficiency in Python socket programming and applied OpenVPN for secure server access.</p>
+    <a class="project-link" href="https://github.com/EshaanTrehan/Decentralized-P2P-UDP-messaging-app">Check it out</a>
   </div>
 </div>
+
+<!--Dublin bus Project -->
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="chat" src="{{ "/assets/img/dublinbus.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Decentralised Chat App </h3>
+    <ul>
+      <li>C</li>
+      <li>Dijkstra's algorithm</li>
+    </ul>
+    <p>Dublin-Bus-Root-Finder is a C-based application that identifies the shortest bus route between two specified stops in the Dublin Bus network. Using graph structures and Dijkstra's algorithm, it represents the network where stops are vertices and routes are edges. The application can load data from CSV files and offers a clear output of the shortest route.</p>
+    <a class="project-link" href="https://github.com/EshaanTrehan/Dublin-Bus-Root-Finder">Check it out</a>
+  </div>
+</div>
+
+<!-- Reddit Joke Bot Project -->
 <div class="user-projects">
   <div class="images-right">
     <img alt="mountains" src="{{ "/assets/img/joke.jpg" | prepend: site.baseurl }}" />
@@ -48,6 +131,8 @@
     <a class="project-link" href="https://github.com/EshaanTrehan/reddit_joke_bot">Check it out</a>
   </div>
 </div>
+
+<!-- Rock paper Scissors Game Project -->
 <div class="user-projects">
   <div class="images-left">
     <img alt="mountains" src="{{ "/assets/img/rockgame.jpg" | prepend: site.baseurl }}" />
@@ -61,4 +146,5 @@
     <p>A game of Rock, Paper and Scissors v/s the computer. This includes a basic GUI of the game using Trinket in python. For more information about the code click the link below.</p>
     <a class="project-link" href="https://github.com/EshaanTrehan/rockpaperscissors">Check it out</a>
   </div>
-</div>
+</div> 
+
