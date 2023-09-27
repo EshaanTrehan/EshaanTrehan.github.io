@@ -1,4 +1,4 @@
-$cut: 768px; // Assuming a breakpoint, adjust as per your value
+$cut: 768px; 
 
 #about {
   width: 90%;
@@ -12,23 +12,27 @@ $cut: 768px; // Assuming a breakpoint, adjust as per your value
 
 .tech {
   margin: 10px;
-  text-align: center; // Center everything in the tech section
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px; 
+  text-align: center;
   
   .icons {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 10px; // Space between icons
-
-    i {
-      font-size: 48px; // Adjust if needed
-      margin-bottom: 10px; // Space between icon and text
-    }
+    justify-content: center;
+    gap: 10px;
+    width: 100%; 
   }
-
+  
+  i {
+    margin: 10px; 
+  }
+  
   p {
-    max-width: 80%; // Don't let the text stretch too wide
-    margin: 0 auto; // Center the text
+    max-width: 80%; 
+    margin: 0 auto; 
     font-size: 16px;
   }
 }
@@ -36,11 +40,12 @@ $cut: 768px; // Assuming a breakpoint, adjust as per your value
 .user {
   text-align: center;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; // Distributes child elements evenly
-  gap: 20px; // Space between tech sections
-
+  justify-content: center;
+  max-width: 100vw; 
+  overflow-x: hidden; 
+  gap: 20px;
+  
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
   }
