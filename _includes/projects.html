@@ -2,13 +2,29 @@
   <h1> Work Experience </h1>
 </div>
 
+<!-- WorldQuant Experience -->
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="WorldQuant" src="{{ "/assets/img/worldqunat.jpeg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> WorldQuant | Quantitative Research Consultant | Remote </h3>
+    <p> July 2024 – Current </p>
+    <ul>
+      <li>Developed over 15 trading strategies (Alphas) using quantitative finance models for U.S. and China markets.</li>
+      <li>Conducted 10-year market data backtesting, analysing performance metrics such as Sharpe ratio, turnover, and returns.</li>
+      <li>Selected from the top 1% of WorldQuant Challenge participants for exceptional performance in quantitative research.</li>
+    </ul>
+  </div>
+</div>
+
 <!-- Bloomberg Experience -->
 <div class="user-projects">
   <div class="images-left">
     <img alt="bloomberg" src="{{ "/assets/img/bloomberg.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <h3> Bloomberg (Data Management Services) | Software Engineer, Intern | Dublin, Ireland </h3>
+    <h3> Bloomberg L.P. | Software Engineer, Intern | Dublin, Ireland </h3>
     <p> May 2023 – Sep 2023 </p>
     <ul>
       <li>Added health endpoints with advanced features for improved monitoring and incorporated time control features to boost efficiency. Rectified critical service bugs related to null errors, job retries, and time discrepancies, ensuring data integrity and system reliability.</li>
@@ -56,7 +72,93 @@
   <h1> Featured Projects </h1>
 </div>
 
-<!-- Stock Predictor & News sentimental Analysis Project -->
+<!-- Advanced Stock Market Analysis and Prediction Tool -->
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="analysis" src="{{ "/assets/img/thesis.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3>Thesis project: Impact of News Sentiments on Stock Prediction Model during periods of Global Crisis using Sentimental Analysis </h3>
+    <ul>
+      <li>Python</li>
+      <li>Long Short-term Memory (LSTM)</li>
+      <li>Prophet · BERT (Language Model)</li>
+      <li>Keras</li>
+      <li>Transformers</li>
+      <li>Machine Learning</li>
+      <li>Data Visualization</li>
+      <li>Data Analysis</li>
+      <li>Data Structures</li>
+      <li>Deep Learning</li>
+    </ul>
+    <p>For my thesis project, I analyzed the impact of global crises on stock markets, focusing on leading indices such as the Dow Jones and S&P 500 during events like COVID-19 and geopolitical disruptions. By integrating sentiment analysis from financial news headlines using FinBERT with LSTM and Prophet models, I achieved an average increase in MAPE of 0.89% for LSTM and 0.50% for Prophet when sentiment scores were included. I developed both models, demonstrating LSTM's superior accuracy, particularly in volatile market conditions, with an average MAPE of less than 5%. The project offered valuable insights into market resilience, and I visualized the results through a real-time Streamlit dashboard for interactive stock market analysis.</p>
+    <a class="project-link" href="https://github.com/EshaanTrehan/Advanced-Stock-Market-Analysis-and-Prediction-Tool">Check it out</a>
+  </div>
+</div>
+
+<!-- Biomedical Imaging AI for Cancer Tumour Segmentation & Classification -->
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="analysis" src="{{ "/assets/img/biomedical.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Biomedical Imaging AI for Cancer Tumour Segmentation & Classification </h3>
+    <ul>
+      <li>Python</li>
+      <li>Convolutional Neural Networks (CNN)</li>
+      <li>Machine Learning</li>
+      <li>Data Visualization</li>
+      <li>Data Analysis</li>
+      <li>Data Structures</li>
+      <li>Deep Learning</li>
+    </ul>
+    <p>I developed a Convolutional Neural Network (CNN) model for image classification, achieving an accuracy of 86.04%, effectively categorizing images from a diverse dataset. Additionally, I implemented a machine learning model for breast cancer tumor segmentation and classification using ultrasound scans. This model attained an accuracy of 83.69% for classification and an F1 score of 0.922 with 96.70% accuracy for segmentation, demonstrating its strong performance in medical imaging tasks.</p>
+    <a class="project-link" href="https://github.com/EshaanTrehan/Biomedical-Imaging-AI-for-Cancer-Tumour-Segmentation-Classification">Check it out</a>
+  </div>
+</div>
+
+<!-- Investment Strategy Analysis Dashboard -->
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="analysis" src="{{ "/assets/img/dashboard.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Investment Strategy Analysis Dashboard </h3>
+    <ul>
+      <li>Python</li>
+      <li>Streamlit</li>
+      <li>Pandas</li>
+      <li>NumPy</li>
+      <li>Altair</li>
+    </ul>
+    <p>I developed an advanced investment analysis dashboard using Streamlit, enabling real-time financial data manipulation and visualization. The dashboard incorporates robust Python scripts to calculate key financial metrics like Geometric Mean Return, Volatility, VaR, and CVaR, providing comprehensive risk assessment tools for investment decision-making. I employed complex financial models to compare portfolio performance, while also integrating Excel data handling for seamless management. Using Altair, I created intuitive visualizations of investment metrics, and enhanced user engagement with interactive widgets, allowing for customization of parameters. Backend calculations were optimized with Pandas and NumPy to ensure high-performance real-time data processing.</p>
+    <a class="project-link" href="https://github.com/EshaanTrehan/Strategy-Analysis-Dashboard">Check it out</a>
+  </div>
+</div>
+
+<!-- Interactive Map Application -->
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="analysis" src="{{ "/assets/img/map.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Interactive Map Application </h3>
+    <ul>
+      <li>JavaScript</li>
+      <li>Leaflet.js</li>
+      <li>Express.js</li>
+      <li>Node.js</li>
+      <li>Multer</li>
+      <li>Cascading Style Sheets (CSS)</li>
+      <li>HTML5</li>
+    </ul>
+    <p>I developed a dynamic web-based interactive mapping application using Leaflet for front-end map features and Express.js for the back-end server setup. The application allows users to interact with the map by adding or removing markers and creating routes with polylines, while also visualizing geographic data. I integrated file upload capabilities using Multer, enabling users to attach media files like images or videos to specific locations on the map. Advanced geospatial editing features were implemented using Leaflet’s Drawing Tools, and I optimized route calculations through Leaflet Routing Machine. Additionally, I enhanced the user interface with custom CSS for responsive design and ensured server reliability with efficient routing and error handling using Node.js and Express.</p>
+    <a class="project-link" href="https://github.com/EshaanTrehan/Global-Map-Routing">Check it out</a>
+  </div>
+</div>
+
+
+<!-- Stock Predictor & News sentimental Analysis Project Old -->
 <div class="user-projects">
   <div class="images-right">
     <img alt="analysis" src="{{ "/assets/img/stock.jpg" | prepend: site.baseurl }}" />
